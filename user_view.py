@@ -31,6 +31,8 @@ def admin_dashboard(user):
     clear_frame()
     tk.Label(main_frame, text=f"Welcome {user.full_name}").pack(pady=10)
     
+    #hello
+    
     def add_ui():
         clear_frame()
         tk.Label(main_frame, text="Add User").pack()
